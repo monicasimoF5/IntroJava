@@ -1,4 +1,4 @@
-package org.msc;
+package org.msc.basics;
 
 public class Strings {
     public static void main(String[] args) {

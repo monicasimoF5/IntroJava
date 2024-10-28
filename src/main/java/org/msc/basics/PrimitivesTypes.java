@@ -1,6 +1,6 @@
-package org.msc;
+package org.msc.basics;
 
-    public class PrimitivesTypes {
+public class PrimitivesTypes {
 
     public static void main(String[] args) {
 
