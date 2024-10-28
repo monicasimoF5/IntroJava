@@ -6,7 +6,7 @@ public class Conditionals {
         // crear una variable que sea la edad de un usuario
         byte age = 51;
 
-        // Imprimir elusuario esmayor de edad y tiene 18 o más años
+        // Imprimir elusuario es mayor de edad y tiene 18 o más años
         if (age >= 18){
             System.out.println("El usuario es mayor de edad");
         } else {
@@ -15,6 +15,7 @@ public class Conditionals {
 
 
         //boolean isActive = false;
+
         //if (isActive){
         //    System.out.println("El usuario está activo");
         //} else {
