@@ -9,6 +9,11 @@ public class Strings {
 
         String fullname = name+ " " + surname;
 
+        // Imprimir por consola una comparación de dos streams con el método equals
+        if (name.equals(name)){
+            System.out.println("Name is Mònica");
+        }
+
         System.out.println(fullname);
 
     }
