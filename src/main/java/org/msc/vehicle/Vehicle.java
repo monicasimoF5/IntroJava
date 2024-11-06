@@ -1,6 +1,6 @@
 package org.msc.vehicle;
 
-public class Vehicle {
+public abstract class Vehicle {
     private String brand;
     protected int velocity;
     protected int ruedas;
@@ -10,11 +10,9 @@ public class Vehicle {
         this.velocity = 0;
     }
 
-    public void acelerar(){
-        this.velocity += 10;
-    }
+    public abstract void acelerar();
 
-    public void frenar(){
+    /*public void frenar(){
         this.velocity -= 10;
     }
 
@@ -24,6 +22,6 @@ public class Vehicle {
 
     public int getRuedas() {
         return ruedas;
-    }
+    }*/
 
 }

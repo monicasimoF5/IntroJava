@@ -13,8 +13,13 @@ public class Car extends Vehicle{
         this.velocity = 20;
     }
 
-    @Override
+    /*@Override
     public void frenar() {
         this.velocity = 20;
+    }*/
+
+    @Override
+    public String toString() {
+        return "El COCHE empieza la carrera a " + this.velocity + " Km/h";
     }
 }

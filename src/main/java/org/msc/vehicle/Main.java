@@ -3,7 +3,14 @@ package org.msc.vehicle;
 public class Main {
 
     public static void main(String[] args) {
-       Car car1 = new Car("Seat");
+        Race race = new Race();
+
+        race.startRace(race.peloton);
+
+    }
+
+
+       /*Car car1 = new Car("Seat");
        Moto moto1 = new Moto ("Yamaha");
 
        car1.acelerar();
@@ -21,6 +28,6 @@ public class Main {
         System.out.println("Moto: ");
         System.out.println(moto1.getVelocity());
         System.out.println("Ruedas:" + moto1.getRuedas());
-    }
+    }*/
 
 }
