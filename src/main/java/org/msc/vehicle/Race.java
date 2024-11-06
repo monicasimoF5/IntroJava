@@ -1,12 +1,19 @@
 package org.msc.vehicle;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Race {
 
-    List<Vehicle> peloton = List.of(new Car("Coche"), new Moto("Moto"),new Camion("Camión"));
+    private List<Vehicle> peloton = new ArrayList<>();
 
-    public void startRace(List<Vehicle> peloton){
+    public Race() {
+        this.peloton.add(new Car("Coche"));
+        this.peloton.add(new Moto("Moto"));
+        this.peloton.add(new Camion("Camión"));
+    }
+
+    public void startRace(){
         for (Vehicle vehiculo : peloton){
             vehiculo.acelerar();
             System.out.println(vehiculo);
